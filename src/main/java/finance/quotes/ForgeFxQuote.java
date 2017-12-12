@@ -1,6 +1,6 @@
 package finance.quotes;
 
-public class ForgeFxQuote extends Quote {
+public class ForgeFxQuote implements Quote {
 	
 	 String symbol;
      float price;

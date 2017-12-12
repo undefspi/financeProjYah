@@ -6,8 +6,7 @@ import finance.quotes.ForgeFxQuote;
 import finance.quotes.Quote;
 
 public interface FinanceService {
-	static final String FINANCEPROPSFILENAME = "financeService.properties";
 	
-	public String issueQuoteServiceRequest(String pairs);
-	public List<? extends Quote> getFXQuotes(String serviceResponse);
+	
+	public List<Quote> getFxQuotes(String pairs);
 }
